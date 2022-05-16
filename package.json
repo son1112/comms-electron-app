@@ -1,0 +1,22 @@
+{
+  "name": "comms",
+  "productName": "COMMS",
+  "version": "0.0.4",
+  "description": "simple electron wrappers to most used comm services",
+  "main": "main.js",
+  "author": "sonander",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "package": "npx electron-packager . --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "dependencies": {
+    "electron-packager": "^15.5.1",
+    "star-wars": "^1.3.2",
+    "vtop": "^0.6.1"
+  }
+}
